@@ -1,0 +1,10 @@
+package solution;
+
+public class MainSolution {
+
+	public static void main(String[] args) {
+		answer = Sol_2557.solution; 
+		System.out.println("Hello world");
+	}
+
+}

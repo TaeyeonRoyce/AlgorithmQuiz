@@ -1,0 +1,5 @@
+package solution.boj;
+
+public class HelloWorld {
+	System.out.println("Hello World!");
+}

@@ -1,0 +1,9 @@
+package solution;
+
+public class MainSolution {
+
+	public static void main(String[] args) {
+		Sol_2557();
+	}
+
+}
