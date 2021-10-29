@@ -1,11 +1,11 @@
 package solution;
 
-import solution.boj.level1.Boj_10869;
+import solution.boj.level2.Boj_11022;
 
 public class MainSolution {
 
 	public static void main(String[] args) {
-		Boj_10869.solution();
+		Boj_11022.solution();
 	}
 
 }
