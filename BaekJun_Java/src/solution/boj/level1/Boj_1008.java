@@ -1,9 +1,9 @@
-package solution.level1;
+package solution.boj.level1;
 
 import java.util.*;
 
 public class Boj_1008 {
-    public static void solution() {
+    public void solution() {
         Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
         int B = scanner.nextInt();

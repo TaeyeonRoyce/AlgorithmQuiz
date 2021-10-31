@@ -1,11 +1,13 @@
 package solution;
 
-import solution.level1.Boj_11022;
+import solution.boj.level1.Boj_10818;
+import solution.programmers.level1.prog_004;
 
 public class MainSolution {
 
     public static void main(String[] args) {
-        Boj_11022.solution();
+        prog_004 solution = new prog_004();
+        solution.solution();
     }
 
 }

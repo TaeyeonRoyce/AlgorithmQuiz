@@ -1,10 +1,10 @@
 
-package solution.level1;
+package solution.boj.level1;
 
 import java.util.Scanner;
 
 public class Boj_2588 {
-    public static void solution() {
+    public void solution() {
         Scanner input = new Scanner(System.in);
         int A = input.nextInt();
         String B = input.next();
