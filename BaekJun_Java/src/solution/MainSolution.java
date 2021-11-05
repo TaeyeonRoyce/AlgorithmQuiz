@@ -9,5 +9,4 @@ public class MainSolution {
         Boj_1316 solution = new Boj_1316();
         solution.solution();
     }
-
 }
