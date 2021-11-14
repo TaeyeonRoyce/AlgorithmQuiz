@@ -26,7 +26,7 @@ public class Boj_2667 {
         for(int i=0; i < N; i++){
             for(int j=0; j < N; j++){
                 if(board[j][i] == 1){
-                    answerSectionSize.add(dfs(j, i, N));
+                    answerSectionSize.add(bfs(j, i, N));
                     answerSection += 1;
                 }
             }
@@ -39,7 +39,7 @@ public class Boj_2667 {
 
     }
 
-    private int dfs(int y, int x, int N){
+    private int bfs(int y, int x, int N){
         int cnt = 0;
         ArrayDeque<int[]> deque = new ArrayDeque<>();
         int[] location = {y, x};
