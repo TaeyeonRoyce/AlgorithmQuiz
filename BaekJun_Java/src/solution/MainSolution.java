@@ -1,12 +1,12 @@
 package solution;
 
 
-import solution.bfs.Boj_7576;
+import solution.bfs.Boj_1697;
 
 public class MainSolution {
 
     public static void main(String[] args) {
-        new Boj_7576().solution();
+        new Boj_1697().solution();
     }
 }
 
