@@ -1,12 +1,11 @@
 package solution;
 
-
-import solution.math.Boj_1016;
+import solution.recursion.Boj_6603;
 
 public class MainSolution {
 
     public static void main(String[] args) {
-        new Boj_1016().solution();
+        new Boj_6603().solution();
     }
 }
 
