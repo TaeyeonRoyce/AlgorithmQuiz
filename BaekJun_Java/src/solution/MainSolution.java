@@ -1,12 +1,12 @@
 package solution;
 
-import solution.greedy.Boj_1931;
-import solution.recursion.Boj_6603;
+import solution.binarysearch.Boj_10816;
+import solution.math.Boj_11050;
 
 public class MainSolution {
 
     public static void main(String[] args) {
-        new Boj_1931().solution();
+        new Boj_11050().solution();
     }
 }
 
