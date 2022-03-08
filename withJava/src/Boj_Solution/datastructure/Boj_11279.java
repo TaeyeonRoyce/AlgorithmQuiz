@@ -12,6 +12,7 @@ public class Boj_11279 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 
+		//최대 힙
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(new Comparator<Integer>() {
 			public int compare(Integer lhs, Integer rhs) {
 				if (lhs < rhs) return +1;
