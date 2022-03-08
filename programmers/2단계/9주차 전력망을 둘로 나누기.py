@@ -1,4 +1,4 @@
-def solution(n, wires):
+def Boj_Solution(n, wires):
     memo = [1]*(len(wires))
     for i in range(len(wires)-1,0,-1):
         prenode = wires[i][0] - 1
@@ -7,4 +7,4 @@ def solution(n, wires):
     answer = min(newMemo)
     return answer
 
-print(solution(6,[[1, 4], [6, 3], [2, 5], [5, 1], [5, 3]]))
+print(Boj_Solution(6,[[1, 4], [6, 3], [2, 5], [5, 1], [5, 3]]))

@@ -1,4 +1,4 @@
-def solution(N):
+def Boj_Solution(N):
     newN = []
     for i in range(len(N)):
         newN.append(int(N[i]))
@@ -11,4 +11,4 @@ def solution(N):
             answer_1 = newN.count(i)
     return max(answer_1, (answer_2+1) // 2)
 N = input()
-print(solution(N))
+print(Boj_Solution(N))

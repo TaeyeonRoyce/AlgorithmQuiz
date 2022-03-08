@@ -1,6 +1,6 @@
 
 
-def solution(n, lost, reserve):
+def Boj_Solution(n, lost, reserve):
     newLs = []
     lost.sort()
     reserve.sort()
@@ -15,4 +15,4 @@ def solution(n, lost, reserve):
             newLs.append(i+1)
     return n - len(lost) + len(newLs)
 
-print(solution(8, [1, 2, 4, 6], [1, 2, 4, 6]))
+print(Boj_Solution(8, [1, 2, 4, 6], [1, 2, 4, 6]))

@@ -1,4 +1,4 @@
-def solution(n):
+def Boj_Solution(n):
     answer = ''
     newList = []
     while n > 0:
@@ -10,4 +10,4 @@ def solution(n):
         decimal += 3**(len_newList-i-1)*newList[i]
     return decimal
 
-print(solution(45))
+print(Boj_Solution(45))

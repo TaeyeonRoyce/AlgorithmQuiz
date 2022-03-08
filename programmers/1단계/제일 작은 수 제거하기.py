@@ -1,4 +1,4 @@
-def solution(arr):
+def Boj_Solution(arr):
     answer = []
     minNum = min(arr)
     for i in arr:

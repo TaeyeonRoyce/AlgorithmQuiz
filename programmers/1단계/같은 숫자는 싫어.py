@@ -1,4 +1,4 @@
-def solution(arr):
+def Boj_Solution(arr):
     answer = []
     answer.append(arr[0])
     for i in range(1,len(arr)):
@@ -10,4 +10,4 @@ def solution(arr):
     return answer
 
 
-print(solution([1,1,3,3,0,1,1]))
+print(Boj_Solution([1,1,3,3,0,1,1]))

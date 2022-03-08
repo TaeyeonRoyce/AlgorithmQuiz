@@ -73,7 +73,7 @@ def calPlus(expression):
     return finalLs
 
 
-def solution(expression):
+def Boj_Solution(expression):
     expression = sepNumAndOper(expression)
     newls = []
     answersheet = [['+','-','*'],['+','*','-'],['-','*','+'],['-','+','*'],['*','-','+'],['*','+','-']]
@@ -94,5 +94,5 @@ def solution(expression):
             newls[i] = (-1)*newls[i]
     return max(newls)
 
-print(solution("177-661*999*99-133+221+334+555-166-144-551-166*166-166*166-133*88*55-11*4+55*888*454*12+11-66+444*99"))
+print(Boj_Solution("177-661*999*99-133+221+334+555-166-144-551-166*166-166*166-133*88*55-11*4+55*888*454*12+11-66+444*99"))
 

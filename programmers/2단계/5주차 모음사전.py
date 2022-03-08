@@ -1,4 +1,4 @@
-def solution(word):
+def Boj_Solution(word):
     answer = 0
     motherList = ["A","E","I","O","U"]
     letterGap = 0
@@ -13,4 +13,4 @@ def solution(word):
         letterGap -= 5**(4-j)
     return answer
 
-print(solution("I"))
+print(Boj_Solution("I"))

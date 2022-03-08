@@ -24,7 +24,7 @@
 #     # shrinked_len = removed*n
 #     # return lenBefore - shrinked_len + len(shrinked_type)
 
-# def solution(s):
+# def Boj_Solution(s):
 #     lenghtLs = []
 #     for i in range(1,int(len(s)/2)+1):
 #         shrinkedLenght = slicing(s,i)
@@ -65,7 +65,7 @@
 #     shrinked_len = removed*n 
 #     return lenBefore - shrinked_len + len(shrinked_type) + nums
 
-# def solution(s):
+# def Boj_Solution(s):
 #     if len(s) == 1:
 #         return 1
 #     lenghtLs = []
@@ -108,7 +108,7 @@ def slicing(s,n):
     anslen = (''.join(shrinked_type))
     return len(anslen)
 
-def solution(s):
+def Boj_Solution(s):
     if len(s) == 1:
         return 1
     lenghtLs = []

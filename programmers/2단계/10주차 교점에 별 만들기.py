@@ -11,7 +11,7 @@ def solution2(a,b):
         result[1]=int(result[1])
     return result
 
-def solution(line):
+def Boj_Solution(line):
     xRange = []
     yRange = []
     answer = []
@@ -39,4 +39,4 @@ def solution(line):
         answerB.append("".join(i))
     return answerB
 
-print(solution([[2, -1, 4], [-2, -1, 4], [0, -1, 1], [5, -8, -12], [5, 8, 12]]))
+print(Boj_Solution([[2, -1, 4], [-2, -1, 4], [0, -1, 1], [5, -8, -12], [5, 8, 12]]))

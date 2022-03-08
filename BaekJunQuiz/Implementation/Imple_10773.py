@@ -1,4 +1,4 @@
-def solution(K):
+def Boj_Solution(K):
     stack = []
     for _ in range(K):
         N = int(input())
@@ -8,4 +8,4 @@ def solution(K):
             stack.append(N)
     return sum(stack)
 
-print(solution(int(input())))
+print(Boj_Solution(int(input())))

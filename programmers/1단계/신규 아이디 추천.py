@@ -1,4 +1,4 @@
-def solution(new_id):
+def Boj_Solution(new_id):
     answer = ''
     new_id = new_id.lower()
     exList = ['1','2','3','4','5','6','7','8','9','0','-','_','.']

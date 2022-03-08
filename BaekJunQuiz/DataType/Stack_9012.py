@@ -1,6 +1,6 @@
 N = int(input())
 
-def solution(n):
+def Boj_Solution(n):
     cnt = 0
     if len(n) % 2 ==1 :
         return False
@@ -18,7 +18,7 @@ def solution(n):
 
 for _ in range(N):
     userInput = input()
-    if solution(userInput):
+    if Boj_Solution(userInput):
         print("YES")
     else:
         print("NO")

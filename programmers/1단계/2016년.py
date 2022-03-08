@@ -1,4 +1,4 @@
-def solution(a, b):
+def Boj_Solution(a, b):
     days = 0
     dayType = ['FRI','SAT','SUN','MON','TUE','WED','THU']
     if a == 1:
@@ -15,5 +15,5 @@ def solution(a, b):
     days += b
     return dayType[days%7]
 
-print(solution(10,26))
+print(Boj_Solution(10,26))
 

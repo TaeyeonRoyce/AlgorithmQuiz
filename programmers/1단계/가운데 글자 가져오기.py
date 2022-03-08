@@ -1,4 +1,4 @@
-def solution(s):
+def Boj_Solution(s):
     charLs = list(s)
     length = len(charLs)
     answer = charLs[int(length/2)]
@@ -6,4 +6,4 @@ def solution(s):
         answer = [charLs[int(length/2)-1], charLs[int(length/2)]]
         answer = (''.join(answer))
     return answer
-print(solution('asdfdsa'))
+print(Boj_Solution('asdfdsa'))

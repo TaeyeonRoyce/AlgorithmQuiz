@@ -5,7 +5,7 @@ def sumPrime(a,b,c):
             return False
     return True
 
-def solution(nums):
+def Boj_Solution(nums):
     answer = 0
     k = len(nums)
     for i in range(k-2):
@@ -16,4 +16,4 @@ def solution(nums):
                     answer += 1
     return answer
 
-print(solution([1,2,3,4]))
+print(Boj_Solution([1,2,3,4]))

@@ -1,2 +1,2 @@
-def solution(phone_number):
+def Boj_Solution(phone_number):
     return '*'*(len(phone_number)-4)+phone_number[-4:]

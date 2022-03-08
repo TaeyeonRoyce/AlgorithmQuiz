@@ -1,5 +1,5 @@
 
-def solution(board, moves):
+def Boj_Solution(board, moves):
     answer = 0
     basket = []
     check = False
@@ -28,4 +28,4 @@ def solution(board, moves):
     
     return answer
 
-print(solution([[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]],[1,4,5,3,5]))
+print(Boj_Solution([[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]],[1,4,5,3,5]))

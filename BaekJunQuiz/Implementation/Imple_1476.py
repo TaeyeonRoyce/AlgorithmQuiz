@@ -1,4 +1,4 @@
-def solution(E, S, M):
+def Boj_Solution(E, S, M):
     answer = 0
     _E, _S, _M = 0, 0, 0
     while 1:
@@ -15,4 +15,4 @@ def solution(E, S, M):
         if _E == E and _S == S and _M == M:
             return answer
 E, S, M = map(int, input().split())
-print(solution(E,S,M))
+print(Boj_Solution(E,S,M))

@@ -1,4 +1,4 @@
-def solution(s):
+def Boj_Solution(s):
     answer = []
     types = []
     a = {}
@@ -12,7 +12,7 @@ def solution(s):
         answer.append(int(a[i]))
     return answer
 
-# def solution(s):
+# def Boj_Solution(s):
 #     # {{, }}를 제거 후 },{ 으로 나누기
 #     data = s[2:-2].split("},{")
 #     # 길이 별로 오름차순 정렬
@@ -21,4 +21,4 @@ def solution(s):
 
 
 
-print(solution("{{4,2,3},{3},{2,3,4,1},{2,3}}"))
+print(Boj_Solution("{{4,2,3},{3},{2,3,4,1},{2,3}}"))

@@ -7,7 +7,7 @@ def gcd(n,m):
         return gcd(m, n % m)
 
 
-def solution(n, m):
+def Boj_Solution(n, m):
     answer = []
     answer.append(gcd(n,m))
     answer.append(n*m/gcd(n,m))

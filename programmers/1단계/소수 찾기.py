@@ -10,7 +10,7 @@ def checkPrime(i):
             return False
     return True
 
-def solution(n):
+def Boj_Solution(n):
     answer = 0
     if n == 1:
         return 0
@@ -18,4 +18,4 @@ def solution(n):
         if checkPrime(i):
             answer += 1
     return answer
-print(solution(10))
+print(Boj_Solution(10))

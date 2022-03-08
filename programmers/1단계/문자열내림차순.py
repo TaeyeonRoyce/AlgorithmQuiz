@@ -1,7 +1,7 @@
-def solution(s):
+def Boj_Solution(s):
     answer = list(s)
     answer.sort()
     answer.reverse()
     answer = (''.join(answer))
     return answer
-print(solution('Zbcdefg'))
+print(Boj_Solution('Zbcdefg'))

@@ -1,4 +1,4 @@
-def solution(s, n):
+def Boj_Solution(s, n):
     s = list(s)
     answer = ''
     for i in s:

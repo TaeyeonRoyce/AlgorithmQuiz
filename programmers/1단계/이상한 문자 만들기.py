@@ -13,7 +13,7 @@ def convertWeird(s):
     return converted
 
 
-# def solution(s):
+# def Boj_Solution(s):
 #     answer = ''
 #     wordList = s.split(' ')
 #     for i in wordList:
@@ -24,7 +24,7 @@ def convertWeird(s):
 #     else:
 #         return answer.rstrip()
 
-def solution(s):
+def Boj_Solution(s):
     answer = ''
     c = 0
     for i in s:
@@ -41,5 +41,5 @@ def solution(s):
     return answer
 
 
-print(solution("""try  asdf   
+print(Boj_Solution("""try  asdf
 tasd tiq tQWER RQts"""))

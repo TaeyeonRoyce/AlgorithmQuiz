@@ -1,4 +1,4 @@
-def solution(N, stages):
+def Boj_Solution(N, stages):
     storage = []
     answer = []
     cpyStorage = []
@@ -19,4 +19,4 @@ def solution(N, stages):
         cpyStorage[cpyStorage.index(i)] += 1
     return answer
 
-print(solution(4,[1,2,1,3,1]))
+print(Boj_Solution(4,[1,2,1,3,1]))

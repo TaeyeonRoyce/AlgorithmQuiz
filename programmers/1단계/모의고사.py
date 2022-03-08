@@ -1,4 +1,4 @@
-def solution(answers):
+def Boj_Solution(answers):
     answer = []
     loops = len(answers)//5
     studentOne = [1, 2, 3, 4, 5] * (loops + 1)
@@ -19,4 +19,4 @@ def solution(answers):
 
     return answer
 
-print(solution([1,3,2,4,2]))
+print(Boj_Solution([1,3,2,4,2]))

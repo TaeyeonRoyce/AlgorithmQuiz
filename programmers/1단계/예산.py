@@ -1,4 +1,4 @@
-def solution(d, budget):
+def Boj_Solution(d, budget):
     d.sort()
     sum = 0
     for i in range(len(d)):
@@ -10,4 +10,4 @@ def solution(d, budget):
         elif sum == budget:
             return i+1
 
-print(solution([4],1))
+print(Boj_Solution([4],1))

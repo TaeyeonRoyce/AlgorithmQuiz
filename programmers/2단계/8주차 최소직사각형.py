@@ -1,4 +1,4 @@
-def solution(sizes):
+def Boj_Solution(sizes):
     maxH = 0
     maxW = 0
     for i in sizes:
@@ -14,4 +14,4 @@ def solution(sizes):
 
     return maxH*maxW
 
-print(solution([[60, 50], [30, 70], [60, 30], [80, 40]]))
+print(Boj_Solution([[60, 50], [30, 70], [60, 30], [80, 40]]))

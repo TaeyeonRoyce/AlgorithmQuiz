@@ -1,4 +1,4 @@
-def solution(N,K):
+def Boj_Solution(N,K):
     memo = list(range(1,N + 1))
     cursor = 0
     cnt = 0
@@ -15,7 +15,7 @@ def solution(N,K):
 
 
 N, K = map(int, input().split())
-answer = solution(N,K)
+answer = Boj_Solution(N,K)
 print("<",end="")
 for i in answer:
     if i == answer[-1]:

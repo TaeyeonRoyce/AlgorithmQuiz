@@ -1,4 +1,4 @@
-def solution(weights, head2head):
+def Boj_Solution(weights, head2head):
     boxerData= []
     for i in range(len(weights)):
         boxerDataDummy= [0,0,weights[i],i+1]
@@ -20,5 +20,5 @@ def solution(weights, head2head):
     return answer
 
 
-print(solution([145,92,86], ["NLW","WNL","LWN"]))
+print(Boj_Solution([145,92,86], ["NLW","WNL","LWN"]))
 

@@ -1,5 +1,5 @@
 
-def solution(n,a,b):
+def Boj_Solution(n,a,b):
     if b < a:
         k = b
         b = a
@@ -20,14 +20,14 @@ def solution(n,a,b):
 
     return cnt
 
-# def solution(n,a,b):
+# def Boj_Solution(n,a,b):
 #     answer = 0
 #     while a != b:
 #         answer += 1
 #         a, b = (a+1)//2, (b+1)//2
 
 #     return answer
-print(solution(8,1,2))
+print(Boj_Solution(8,1,2))
 
 
 

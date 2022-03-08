@@ -1,4 +1,4 @@
-def solution(absolutes, signs):
+def Boj_Solution(absolutes, signs):
     ans = 0
     for i in range(len(absolutes)):
         if signs[i]:
@@ -13,4 +13,4 @@ def solution(absolutes, signs):
 
 absolutes = [1,2,3]
 signs =[False,False,True]
-print(solution(absolutes,signs))
+print(Boj_Solution(absolutes,signs))

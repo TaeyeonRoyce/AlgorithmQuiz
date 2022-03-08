@@ -1,4 +1,4 @@
-def solution(arr, divisor):
+def Boj_Solution(arr, divisor):
     answer = []
     for i in arr:
         if i % divisor == 0:
@@ -9,4 +9,4 @@ def solution(arr, divisor):
         return sorted(answer)
     
 
-print(solution([5, 9, 7, 10],5))
+print(Boj_Solution([5, 9, 7, 10],5))

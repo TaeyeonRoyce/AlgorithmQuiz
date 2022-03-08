@@ -5,16 +5,16 @@
 #     sum += k
 #     sumNum(int(a/10),sum)
 
-# def solution(n):
+# def Boj_Solution(n):
 #     answer = 0
 #     answer = sumNum(n,answer)
 #     return answer
 
-# print(solution(123))
-def solution(n):
+# print(Boj_Solution(123))
+def Boj_Solution(n):
     answer = 0
     while n > 0:
         answer += (n % 10)
         n = n//10
     return answer
-print(solution(987))
+print(Boj_Solution(987))

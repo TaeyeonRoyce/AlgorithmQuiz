@@ -10,7 +10,7 @@ def checkHead(a,b):
 
 
 
-def solution(phone_book):
+def Boj_Solution(phone_book):
     phone_book.sort()
     answer = True
     for i in range(len(phone_book)-1):
@@ -27,4 +27,4 @@ def solution(phone_book):
     #             return answer
     return answer
 
-print(solution([["123","456","789"]]))
+print(Boj_Solution([["123","456","789"]]))

@@ -7,7 +7,7 @@ def convertBin(num , n):
         ans = '0'*(n-len(ans)) + ans
     return ans
 
-def solution(n, arr1, arr2):
+def Boj_Solution(n, arr1, arr2):
     newArr1 = []
     newArr2 = []
     answer = []
@@ -28,4 +28,4 @@ def solution(n, arr1, arr2):
     return answer
 
 
-print(solution(5,[9, 20, 28, 18, 11],[30, 1, 21, 17, 28]))
+print(Boj_Solution(5,[9, 20, 28, 18, 11],[30, 1, 21, 17, 28]))

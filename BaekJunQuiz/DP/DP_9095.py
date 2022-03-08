@@ -1,6 +1,6 @@
 T = int(input())
 
-def solution(N):
+def Boj_Solution(N):
     if N == 1:
         return memo[0]
     elif N == 2:
@@ -17,4 +17,4 @@ for _ in range(T):
     memo[0] = 1
     memo[1] = 2
     memo[2] = 4
-    print(solution(N))
+    print(Boj_Solution(N))

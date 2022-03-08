@@ -1,6 +1,6 @@
 
 
-def solution(lottos, win_nums):
+def Boj_Solution(lottos, win_nums):
     answer = []
     lottos.sort()
     win_nums.sort()
@@ -25,9 +25,9 @@ def solution(lottos, win_nums):
 
 lottos = [0,0,0,0,0,0]
 win_nums = [31,10,45,1,6,19]
-print(solution(lottos,win_nums))
+print(Boj_Solution(lottos,win_nums))
 
-# def solution(lottos, win_nums):
+# def Boj_Solution(lottos, win_nums):
 
 #     rank=[6,6,5,4,3,2,1]
 

@@ -3,7 +3,7 @@ N = int(input())
 memo = [0]*(N+2)
 memo[1] = 1
 memo[2] = 3
-def solution(N):
+def Boj_Solution(N):
     if N == 1:
         return memo[1]
     elif N == 2:
@@ -12,4 +12,4 @@ def solution(N):
         memo[i] = memo[i-2]*2 + memo[i-1]
     return memo[N]
 
-print(solution(N) % 10007)
+print(Boj_Solution(N) % 10007)

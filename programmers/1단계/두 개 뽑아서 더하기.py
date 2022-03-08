@@ -1,6 +1,6 @@
 import itertools
 
-def solution(numbers): 
+def Boj_Solution(numbers):
     answer = []
     comList = list((itertools.combinations(numbers,2)))
     for i in range(len(comList)):
@@ -9,4 +9,4 @@ def solution(numbers):
     return sorted(list(set(answer)))
 
 
-print(solution([5,0,2,7]))
+print(Boj_Solution([5,0,2,7]))

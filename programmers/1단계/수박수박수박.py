@@ -1,4 +1,4 @@
-def solution(n):
+def Boj_Solution(n):
     answer = ''
     for i in range(n):
         if i % 2 == 0:
@@ -9,4 +9,4 @@ def solution(n):
 def water_melon(n):
     return "수박"*(n//2) + "수"*(n%2)
     
-print(solution(4))
+print(Boj_Solution(4))

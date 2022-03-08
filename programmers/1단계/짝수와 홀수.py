@@ -1,4 +1,4 @@
-def solution(num):
+def Boj_Solution(num):
     return "Odd" if num%2 == 0 else  "Even"
 
-print(solution(3))
+print(Boj_Solution(3))

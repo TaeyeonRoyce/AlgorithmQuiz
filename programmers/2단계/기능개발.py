@@ -14,7 +14,7 @@ def developFunc(progresses, speeds):
         cnt += 1
     return cnt
 
-def solution(progresses, speeds):
+def Boj_Solution(progresses, speeds):
     answer = []
     while len(progresses) != 0:
         cnt = developFunc(progresses, speeds)
@@ -23,4 +23,4 @@ def solution(progresses, speeds):
             del speeds[0]
         answer.append(cnt)
     return answer
-print(solution([95, 90, 99, 99, 80, 99],[1, 1, 1, 1, 1, 1]))
+print(Boj_Solution([95, 90, 99, 99, 80, 99],[1, 1, 1, 1, 1, 1]))

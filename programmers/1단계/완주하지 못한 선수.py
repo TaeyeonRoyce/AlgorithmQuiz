@@ -1,6 +1,6 @@
 
 
-def solution(participant, completion):
+def Boj_Solution(participant, completion):
     A = set(participant)
     B = set(completion)
     answer = list(A-B)
@@ -12,4 +12,4 @@ def solution(participant, completion):
                 return participant[i]
     else:
         return answer[0]
-print(solution(["mislav", "stanko", "mislav", "ana"],["mislav", "ana","stanko"]))
+print(Boj_Solution(["mislav", "stanko", "mislav", "ana"],["mislav", "ana","stanko"]))

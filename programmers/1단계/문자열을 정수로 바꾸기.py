@@ -1,5 +1,5 @@
-def solution(s):
+def Boj_Solution(s):
     return int(s)
 
 
-print(solution('-1234'))
+print(Boj_Solution('-1234'))

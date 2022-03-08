@@ -7,7 +7,7 @@ def calDistance(currentLocation, target):
 
 
 
-def solution(numbers, hand):
+def Boj_Solution(numbers, hand):
     currentLeft = [3,0]
     currentRight = [3,2]
     answer = ""
@@ -37,4 +37,4 @@ def solution(numbers, hand):
             currentRight = [(i-1) // 3, (i-1) % 3]
     return answer
 
-print(solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], "left"))
+print(Boj_Solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2], "left"))

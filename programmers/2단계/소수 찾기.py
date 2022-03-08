@@ -14,7 +14,7 @@ def sumNums(n):
         k += n[i]*(10**i)
     return k
 
-def solution(numbers):
+def Boj_Solution(numbers):
     newList = []
     for i in range(len(numbers)):
         newList.append(int(numbers[i]))
@@ -32,4 +32,4 @@ def solution(numbers):
             cnt += 1
     return cnt
 
-print(solution("17"))
+print(Boj_Solution("17"))

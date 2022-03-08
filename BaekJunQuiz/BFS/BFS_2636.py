@@ -9,7 +9,7 @@ for _ in range(N):
 dx = [-1, 0, 1, 0]
 dy = [0, -1, 0, 1]
 answer = 0
-def solution():
+def Boj_Solution():
     cheeseBoard = [[False]*M for _ in range(N)]
     q = deque()
     q.append([0,0])
@@ -30,7 +30,7 @@ def solution():
     return cnt
 
 while 1:
-    cnt = solution()
+    cnt = Boj_Solution()
     if cnt == 0:
         break
     else:

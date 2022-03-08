@@ -11,7 +11,7 @@ def LCM(a,b):
             break;
     return int(a*b/gcd)
 
-def solution(s):
+def Boj_Solution(s):
     for i in range(1,len(s)):
         s[i] = LCM(s[i-1],s[i])
     answer = s[-1]
@@ -19,4 +19,4 @@ def solution(s):
 
 
 
-print(solution([2,8,10,24]))
+print(Boj_Solution([2,8,10,24]))

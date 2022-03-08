@@ -1,4 +1,4 @@
-def solution(K):
+def Boj_Solution(K):
     for _ in range(K):
         answer = 0
         N, M = map(int, input().split())
@@ -17,4 +17,4 @@ def solution(K):
         print(answer)
 
 
-solution(int(input()))
+Boj_Solution(int(input()))

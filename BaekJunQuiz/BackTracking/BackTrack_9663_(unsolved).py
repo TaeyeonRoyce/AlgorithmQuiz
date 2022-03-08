@@ -8,7 +8,7 @@ for i in range(N):
     chessBoard.append(newList)
 
 caseCount = 0
-def solution(currentChessBoard, depth, cntQueen, N, cnt):
+def Boj_Solution(currentChessBoard, depth, cntQueen, N, cnt):
     previousChessBoard = currentChessBoard
     for x in range(N):
         if currentChessBoard[depth][x] == False:
@@ -30,11 +30,11 @@ def solution(currentChessBoard, depth, cntQueen, N, cnt):
                 return previousChessBoard
             elif depth == N - 1:
                 return previousChessBoard
-            currentChessBoard = solution(currentChessBoard, depth + 1, cntQueen + 1, N, cnt)
+            currentChessBoard = Boj_Solution(currentChessBoard, depth + 1, cntQueen + 1, N, cnt)
 
 
 print(chessBoard)
-print(solution(chessBoard, 0, 0, N, 0))
+print(Boj_Solution(chessBoard, 0, 0, N, 0))
             
 
     
