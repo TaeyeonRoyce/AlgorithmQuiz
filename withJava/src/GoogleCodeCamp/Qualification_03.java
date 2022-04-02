@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class Qualification_03 {
@@ -29,6 +28,9 @@ public class Qualification_03 {
 		}
 	}
 
+	//ex) 3 3 3 3 5 7
+	//for   straight [1, 2, 3, 4, 5, 6]
+	//		dices    [3, 3, 3, 5, 7]
 	private static int solution(List<Integer> diceList) {
 		int start = 1;
 		Collections.sort(diceList);

@@ -8,6 +8,7 @@ import java.util.StringTokenizer;
 
 public class Qualification_02 {
 
+	//exact unit
 	private static final int unit = 1000000;
 
 	public static void main(String[] args) throws IOException {
@@ -15,6 +16,8 @@ public class Qualification_02 {
 		int T = Integer.parseInt(br.readLine());
 
 		for (int i = 0; i < T; i++) {
+			//save remained inks by colors
+			//not by each printers
 			int[] cyan = new int[3];
 			int[] magenta = new int[3];
 			int[] yellow = new int[3];
@@ -39,18 +42,27 @@ public class Qualification_02 {
 		Arrays.sort(yellow);
 		Arrays.sort(black);
 
+		//To print same color with all printers,
+		//only check minimum of each color
 		int minC = cyan[0];
 		int minM = magenta[0];
 		int minY = yellow[0];
 		int minB = black[0];
 
 		int minSum = minC + minM + minY + minB;
+
+		//sum of minimums should be bigger than unit(1,000,000)
 		if (minSum < unit) {
 			return "IMPOSSIBLE";
 		}
 
-		int left = minSum % unit;
+		//1. calculate left
+		//	left = minSum - unit
+		//ex) minSum = 1,234,567 -> left = 234,567
+		// we don't need to sum 234,567 inks
+		int left = minSum - unit;
 
+		//revert unnecessary inks
 		if (left > minC) {
 			left -= minC;
 			minC = 0;
