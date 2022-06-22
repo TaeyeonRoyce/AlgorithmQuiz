@@ -2,7 +2,7 @@ package CodeGround.solutions;
 
 import java.util.Scanner;
 
-public class NumberOfInversion {
+public class Practice_122 {
 	static int Answer;
 	static int[] bufferArr;
 	public static void main(String args[]) throws Exception {
