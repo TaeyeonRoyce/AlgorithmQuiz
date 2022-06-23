@@ -21,14 +21,15 @@ public class Boj_1010 {
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
 
-		long answer = 1;
+		long[] memo = new long[M + 1];
+		memo[1] = M;
 		//mCn
-		for (int i = (M - N) + 1; i <= M; i++) {
-			answer *= i;
+		for (int i = 2; i <= N; i++) {
+			memo[i] = (memo[i - 1]) * (M - i + 1) / i;
 		}
-		for (int i = 1; i <= N; i++) {
-			answer /= i;
-		}
-		return answer;
+		return memo[N];
 	}
 }
+
+// 0  1   2         3       4       5
+// 0  5  *4 / 2     *3 / 3  *2 / 4
